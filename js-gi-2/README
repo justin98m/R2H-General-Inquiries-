@@ -1,33 +1,36 @@
-R2H Javascript Introduction General Inquiry
+Guided Inquiry #3 : Javascript Week 2
 
-Very Easy :
-  - Create two variables that are assigned to a number
-  - Log to the console the difference
-    - The log should display the operation as well
-Easy :
-  - Create two variables containing strings representing a person's name
-  - Log to the console which name is longer than the other and by how many
-    - If the same amount of characters say so
-Medium :
-  - Get user input prompting for a string
-  - Determine is the characters are in all Caps
-    -Signify that the user is screaming
-  -Determine if the characters are in all lowercase
-    - Signify that the user is whispering
-  -Determine if the characters are a mix of uppercase and lowercase
-    - Signifying they are talking normally
+Very Easy: Write a function named min
+min shall take two arguments
+min shall return the minimum value
+there is no presumption of the type of value
+
+Easy: Create an array of students
+where in the array there are 3 students
+with their individual
+  -First name
+  - Last name
+  - Age
+Then log a greeting displaying the details of the second student
+
+Medium: Write a program that
+  -Accepts a number between 1 and 12 inclusive
+  -log that number
+  -logs the month is represents where 1 = January
+  -if a user enters a incorrect value (not 1-12 inclusive )
+  - alert them of the issue
 Hard :
-  - Create 4 Math functions
-    - That take two Numbers
-    - performs operator on operands in the order received
-  -Functions
-    - Add
-    - Subtract
-    - Multiply
-    - Divide
-Very Hard :
-  - Using the functions from the previous challenge
-    -Prompt a user for
-      - a number
-      - a operand
-      - another number
+  Given the height and mass of
+   -TOM
+    -9 inches
+    -8 grams
+  -Jerry
+    -10 in
+    -45 grams
+  -Don't question why Jerry weighs more and is taller than Jerry.
+  -Then compare their BMI's using the formula
+    -BMI = mass / (height * height)
+  -Store both BMI's in separate variables
+  -Create a bool
+    -Signifying whether tom has a higher BMI than Jerry
+    -log Comparing BMIs and Signifying if Tom's BMI is higher than Jerry's
