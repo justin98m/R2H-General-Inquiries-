@@ -1,0 +1,33 @@
+R2H Javascript Introduction General Inquiry
+
+Very Easy :
+  - Create two variables that are assigned to a number
+  - Log to the console the difference
+    - The log should display the operation as well
+Easy :
+  - Create two variables containing strings representing a person's name
+  - Log to the console which name is longer than the other and by how many
+    - If the same amount of characters say so
+Medium :
+  - Get user input prompting for a string
+  - Determine is the characters are in all Caps
+    -Signify that the user is screaming
+  -Determine if the characters are in all lowercase
+    - Signify that the user is whispering
+  -Determine if the characters are a mix of uppercase and lowercase
+    - Signifying they are talking normally
+Hard :
+  - Create 4 Math functions
+    - That take two Numbers
+    - performs operator on operands in the order received
+  -Functions
+    - Add
+    - Subtract
+    - Multiply
+    - Divide
+Very Hard :
+  - Using the functions from the previous challenge
+    -Prompt a user for
+      - a number
+      - a operand
+      - another number

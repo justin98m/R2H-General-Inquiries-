@@ -1,0 +1,25 @@
+Guided Inquiry: Advanced Css
+
+-Graded problems from the R2H program focusing on page manipulation with
+  - Flex
+  - Grid
+  - Media Queries
+
+Problem #1
+  - Create an 8x8 checkerboard with alternating black and white squares
+Problem #2
+  -Create American flag using a img to represent the stars section
+    -(Img should contain all 50 stars)
+Problem #3
+  - Create a store catalog page where :
+    - There are two rows of products
+    - Totaling 8 products
+    - Where each product contains a:
+      - Title
+      - Price
+      - Image
+      - Short description
+      - A link to a products page on a real website
+Problem #4
+  - Complete the Introduction to Responsive Web Design Challenges on Code Academy
+    Link: https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-principles/
