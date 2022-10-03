@@ -7,7 +7,7 @@ class Person {
   }
   //Part 2
   exercise(){
-  console.log('You should run often');
+  console.log(`${this.name} should run more often`);
   }
   //Part 3
   fetchJob(){
@@ -15,5 +15,5 @@ class Person {
   }
 }
 
-  
+
 module.exports = Person;

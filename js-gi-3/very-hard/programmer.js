@@ -1,10 +1,11 @@
+//import person class from person file
 const Person = require('./person.js');
 
 //part 4
 class Programmer extends Person {
     constructor(personInfo, languages){
       super(personInfo);
-      this.languages = [languages];
+      this.languages = languages;
       this.busy = true;
     }
     //part 5
@@ -29,9 +30,45 @@ class Programmer extends Person {
     }
     listLanguages(){
       console.log(`${this.name} knows the following programming languages`);
-      languages.foreEach(language =>{
-        console.log("\n" + language);
+      this.languages.forEach(language =>{
+        console.log(language);
       })
     }
 }
-module.exports = Programmer;
+//part 1
+let justin = new Person({
+  name : 'Justin',
+  job : 'Developer',
+  age : 25
+});
+//part 7
+let josh = new Programmer(
+  {
+    name : 'Josh',
+    job : 'Front End Developer',
+    age : 27,
+  },
+    ['css','HTML','javaScript']
+  );
+let mike = new Programmer(
+  {
+    name : 'Michael',
+    job : 'Backend Developer',
+    age: 25,
+  },
+  ['javaScript','Python']
+);
+let jimi = new Programmer(
+{
+  name : 'Jimi',
+  job: 'Application Developer',
+  age : 47,
+},
+['swift','css']
+);
+module.exports = {
+  justin,
+  josh,
+  mike,
+  jimi
+};
