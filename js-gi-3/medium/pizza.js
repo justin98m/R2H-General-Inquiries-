@@ -1,6 +1,8 @@
 function cutPizzaSlices(numSlices) {
   return function(peopleEating) {
+
     let split = (numSlices/peopleEating).toFixed(2);
+
     return `With ${numSlices} slices and ${peopleEating} people eating, `+
     `each person gets ${split} slices of pizza`;
   }
